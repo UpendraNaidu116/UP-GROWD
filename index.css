@@ -1,0 +1,491 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(50, 49, 50); ;
+    
+}
+      /*heading bar*/
+#headingbar{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border: rgb(58, 56, 56) solid 5px;
+    background-color:rgb(58, 56, 56);
+    margin-top: 0px;
+}
+       /*app name*/
+#appname{
+     position: absolute;
+     color: white;
+     left: 100px;
+     top: -15px;
+}
+          /*search page*/
+#search{
+    position: absolute;
+    cursor: pointer;
+    color: white;
+    left: 95%;
+    top: 15px;
+}
+    /*subscribe*/
+#sub{
+   background-color: aqua;
+   height: 30px;
+   width: 150px;
+   font-size: 20px;
+   color: whitesmoke;
+   margin-left: 300px;
+   margin-top: 10px;
+   border-radius: 10px;
+   position: absolute;
+   cursor: pointer;
+}
+           /*sublist button*/
+#fontlogo{
+    color:white;
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    left: 30px;
+    top: 10px;
+    background-color: rgb(58, 56, 56);
+    cursor: pointer;
+}
+#sublist{
+    height: 700px;
+    width: 35%;
+    position: absolute;
+    border: rgb(58, 56, 56) solid 5px;
+    background-color: rgb(58, 56, 56);
+    top: 40px;
+    left: 60px;
+}
+#button{
+   height: 60px;
+   width: 100px;
+   background-color: black;
+   position: absolute;
+   left: 13px;
+   top: 38px;
+   cursor: pointer;
+}
+         /*login page*/
+#userimage{
+   height: 60px;
+   width: 60px;
+   border-radius: 200px;
+   background-color: rgb(92, 85, 85);
+   position: absolute;
+   left: 6px;
+   top: 35px;
+}
+#onclick{
+   position: absolute;
+   height: 70px;
+   width: 100%;
+   cursor: pointer;
+   top: 30px;
+}
+#onclick:hover{
+   background-color: rgb(70, 76, 76);
+}
+#text{
+   position: absolute;
+   left: 80px;
+   top:8px ;
+   font-size: 25px;
+   color: white;
+   cursor: pointer;
+}
+#text1{
+    position: absolute;
+    left: 80px;
+    top:28px ;
+    font-size: 17px;
+    color: wheat;
+    cursor: pointer;
+ }
+ #greatrhan{
+   position: absolute;
+   color: white;
+   left: 310px;
+   top: 55px;
+   cursor: pointer;
+ }
+            /*kids safe*/
+ #sublist1{
+    height: 50px;
+    width: 99%;
+    position: absolute;
+    border: rgb(70, 76, 76) solid 5px;
+    background-color: rgb(70, 76, 76);
+    top: 120px;
+    margin: 0px;
+    color: rgb(234, 216, 115);
+ }
+ #text2{
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: -15px;
+ }
+ #offon{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    left: 300px;
+    top: 14px;
+ }
+      /*download page*/
+ #download{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 204px;
+ }
+ #downloadclick{
+   position: absolute;
+   height: 45px;
+   width: 100%;
+   cursor: pointer;
+   top: 190px;
+ }
+ #downloadclick:hover{
+   background-color: rgb(70, 76, 76);
+ }
+ #text3{
+   position: absolute;
+   left: 70px;
+   top:160px ;
+   font-size: 20px;
+   color: white;
+ }
+ #text4{
+   position: absolute;
+   left: 70px;
+   top:180px ;
+   font-size: 15px;
+   color: wheat;
+}
+         /*watchlist page*/
+#Watchlist{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 254px;
+}
+#Watchlist1{
+   position: absolute;
+   height: 45px;
+   width: 100%;
+   cursor: pointer;
+   top: 240px;
+ }
+ #Watchlist1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text5{
+   position: absolute;
+   left: 70px;
+   top:210px ;
+   font-size: 20px;
+   color: white;
+}
+#text6{
+   position: absolute;
+   left: 70px;
+   top:230px ;
+   font-size: 15px;
+   color: wheat;
+}
+       /*prizes page*/
+#Prizes{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 304px;
+}
+#Prizes1{
+   position: absolute;
+   height: 45px;
+   width: 100%;
+   cursor: pointer;
+   top: 290px;
+ }
+ #Prizes1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text7{
+   position: absolute;
+   left: 70px;
+   top:260px ;
+   font-size: 20px;
+   color: white;
+}
+#text8{
+   position: absolute;
+   left: 70px;
+   top:280px ;
+   font-size: 15px;
+   color: wheat;
+}
+       /*channels page*/
+#Channels{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 350px;
+}
+#Channels1{
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   cursor: pointer;
+   top: 340px;
+ }
+ #Channels1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text9{
+   position: absolute;
+   left: 70px;
+   top:314px ;
+   font-size: 20px;
+   color: white;
+}
+        /*languges page*/
+#Languges{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 390px;
+}
+#Languges1{
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   cursor: pointer;
+   top: 380px;
+ }
+ #Languges1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text10{
+   position: absolute;
+   left: 70px;
+   top:354px ;
+   font-size: 20px;
+   color: white;
+}
+        /*genres page*/
+#Genres{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 430px;
+}
+#Genres1{
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   cursor: pointer;
+   top: 420px;
+ }
+ #Genres1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text11{
+   position: absolute;
+   left: 70px;
+   top:394px;
+   font-size: 20px;
+   color: white;
+}
+      /*hr line*/
+#line{
+   color: rgb(139, 136, 136);
+   top:434px;
+}
+      /*preferences page*/
+#Preferences{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 500px;
+}
+#Preferences1{
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   cursor: pointer;
+   top: 490px;
+ }
+ #Preferences1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text12{
+   position: absolute;
+   left: 70px;
+   top:461px;
+   font-size: 20px;
+   color: white;
+}
+    /*help page*/
+#Help{
+   position: absolute;
+   color: white;
+   left: 26px;
+   top: 540px;
+}
+#Help1{
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   cursor: pointer;
+   top: 530px;
+ }
+ #Help1:hover{
+   background-color: rgb(70, 76, 76);
+ }
+#text13{
+   position: absolute;
+   left: 70px;
+   top:501px;
+   font-size: 20px;
+   color: white;
+}
+    /*hr line2*/
+#line2{
+   color: rgb(139, 136, 136);
+}
+      /*version*/
+#text14{
+   position: absolute;
+   left: 70px;
+   top:586px;
+   font-size: 20px;
+   color: rgb(219, 191, 191);
+}
+#text15{
+   position: absolute;
+   left: 70px;
+   top:621px;
+   font-size: 20px;
+   color: rgb(219, 191, 191);
+}
+    /*ad images*/
+#adimages{
+   width: 100%;
+   height: 500px;
+   margin: 10px 10px 10px 10px;
+   border-radius: 20px;
+   top: 10px;
+}
+    /*movie list*/
+#arrow{
+   height:320px;
+   width: 100%;
+   margin-top: 30px;
+}
+#name123{
+   color: white;
+   margin-left: 40px;
+   margin-top: -15px;
+}
+#greatrhanname{
+   position: absolute;
+   color: aliceblue;
+   margin-left: 97%;
+   margin-top: -45px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#movielist{
+   height: 300px;
+   width: 99%;
+   margin: -20px 10px 10px 20px;
+   
+}
+#img1{
+   height: 300px;
+   width: 307px;
+   top: 570px;
+   left: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#img:active{
+   height: 310px;
+   width: 317px;
+  
+}
+#img2{
+   height: 300px;
+   width: 309px;
+   top: 570px;
+   left: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#img:hover{
+   height: 310px;
+   width: 317px;
+}
+#img3{
+   height: 300px;
+   width: 309px;
+   top: 570px;
+   left: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#img:hover{
+   height: 310px;
+   width: 317px;
+}
+#img4{
+   height: 300px;
+   width: 307px;
+   top: 570px;
+   left: 20px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+#img:hover{
+   height: 310px;
+   width: 317px;
+}
+       /*ad subcribe buton*/
+#div1{
+   height: 400px;
+   width: 100%;
+   margin-top: 30px;
+   margin-left: 10px;
+   border-radius: 20px;
+   background-color:rgb(27, 27, 79);
+}
+#videos{
+   height: 399px;
+   width: 100%;
+   position: absolute;
+   margin-top: 0px;
+   margin-left: 158px;
+   border-radius: 120px;
+   font-style: italic;
+   cursor: pointer;
+}
+#font{
+   font-size: 70px;
+   top: 950px;
+   left: 50px;
+   color: white;
+ position: absolute;
+ cursor: pointer;
+}
+
+
+
+
+
+

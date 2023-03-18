@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <script src="../index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+#body{
+  margin: 0px;
+  padding: 0px;
+}
+#LeftArrow{
+    color:white;
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 23px;
+    top: 15px;
+    cursor: pointer;
+}
+#Helpheadingbar{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border: rgb(58, 56, 56) solid 5px;
+    background-color:rgb(58, 56, 56);
+    margin-top:-10px;
+    margin-left:-10px;
+}
+#Helptext{
+    position: absolute;
+    left: 60px;
+    top:-8px ;
+    font-size: 25px;
+    color: white;
+}
+#login3{
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  margin-left: 30%;
+  margin-top: 50px;
+}
+#tabletag{
+  margin-top: 80px;
+  margin-left: 10px;
+  position: absolute;
+}
+#name{
+  font-size: 40px;
+}
+#input{
+  height: 40px;
+  width: 360px;
+  font-size: 30px;
+}
+#input1{
+  height: 40px;
+  width: 360px;
+  font-size: 30px;
+}
+#submit{
+  margin-top: 20px;
+  margin-left: 70px;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div id="Helpheadingbar">
+    <a href="../index.html">
+    <i class="fa-solid fa-arrow-left-long" id="LeftArrow"></i></a>
+    <h1 id="Helptext">Login</h1>
+    </div>
+    <div id="login3">
+      <from>
+        <table id="tabletag">
+        <tr><td><label id="name">FULL NAME :</label><br><input type="text" placeholder="FullName" required id="input" onfocus="input()"></td></tr>
+        <tr><td><label id="name">EMAIL/PHONE NUMBER :</label><br><input type="email" placeholder="Email/PhoneNumber" required id="input1" onfocus="input1()"></td></tr>
+         <tr><td><a href="./EnterOTP.html">
+          <input type="submit" value="Enter OTP" id="submit"></a></td></tr>
+        </table>
+      </from>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OTP</title>
+    <script src="../index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+ #body{
+  margin: 0px;
+  padding: 0px;
+}
+#LeftArrow{
+    color:white;
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    left: 23px;
+    top: 15px;
+    cursor: pointer;
+}
+#otpheadingbar{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border: rgb(58, 56, 56) solid 5px;
+    background-color:rgb(58, 56, 56);
+    margin-top:-10px;
+    margin-left:-10px;
+}
+#otptext{
+    position: absolute;
+    left: 60px;
+    top:-8px ;
+    font-size: 25px;
+    color: white;
+}
+#otp{
+    margin-top: 200px;
+    margin-left: 310px;
+    height: 40px;
+    width: 400px;
+    border: black solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+}
+#text1{
+    font-size: 15px;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 253px;
+    color: rgb(89, 85, 85);
+}
+#text2{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 275px;
+}
+#button{
+    width: 150px;
+    height: 40px;
+    margin-top: 330px;
+    margin-left: 430px;
+    position: absolute;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <div id="otpheadingbar">
+        <a href="./login.html">
+        <i class="fa-solid fa-arrow-left-long" id="LeftArrow"></i></a>
+        <h1 id="otptext">OTP</h1>
+        </div>
+        <tr><td><input type="otp" placeholder="Enter OTP" id="otp" onfocus="otp()"></td></tr>
+        <h6 id="text1">Enter otp</h6>
+        <h4 id="text2">Resend OTP</h4>
+        <tr><td><a href="../index.html">
+        <input type="submit" value="Login" id="button"></a></td></tr>
+</body>
+</html>
